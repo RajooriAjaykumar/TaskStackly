@@ -1,57 +1,65 @@
 body{
+    margin: 0px;
+    padding: 0px;
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
 }
-h1{
-    color: #333;
-    text-align: center;
-    margin-top: 50px;
-}
-h{
-    color: #555;
-    margin-left: 20px;
-    text-align: center;
-}
-p{
-    color: #666;
-    margin-left: 20px;
-    line-height: 1.5;
+header{
+
+    background-color: #56f24e;
+    color: white;
+    padding: 20px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    justify-content: space-between;
 }
 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
     display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
+    
+}   
+.nav{
+    display: flex;
+    gap: 100px;
+    text-decoration: none;
+    
 }
-table{
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
+.nav li{
+    list-style: none;
+    
 }
-th, td{
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
+.nav li a:hover{
+    color: #333;
+    font-weight: bold;
+    
 }
-li{
-    color: #777;
-    margin-left: 40px;
-    line-height: 1.5;
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
 }
-ul{
-    list-style-type: square;
-    margin-left: 40px;
+.contact{
+    
+    color: rgb(14, 3, 3);
+    /* align-items: center; */
+    border-radius: 15px;
 }
-ol{
-    list-style-type: decimal;
-    margin-left: 40px;
+.contact button{
+    /* color: white; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-form{
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    text-align: left;
-    justify-content: center;
+.contact button:hover{
+    background-color: #333;
+    color: white;
+    font-weight: bold; 
+
+    
+    
 }
